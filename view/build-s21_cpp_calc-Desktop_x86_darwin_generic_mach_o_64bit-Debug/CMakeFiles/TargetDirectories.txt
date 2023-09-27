@@ -1,4 +1,0 @@
-/Users/boyceing/Desktop/s21_cpp_calc/view/build-s21_cpp_calc-Desktop_x86_darwin_generic_mach_o_64bit-Debug/CMakeFiles/s21_cpp_calc.dir
-/Users/boyceing/Desktop/s21_cpp_calc/view/build-s21_cpp_calc-Desktop_x86_darwin_generic_mach_o_64bit-Debug/CMakeFiles/edit_cache.dir
-/Users/boyceing/Desktop/s21_cpp_calc/view/build-s21_cpp_calc-Desktop_x86_darwin_generic_mach_o_64bit-Debug/CMakeFiles/rebuild_cache.dir
-/Users/boyceing/Desktop/s21_cpp_calc/view/build-s21_cpp_calc-Desktop_x86_darwin_generic_mach_o_64bit-Debug/CMakeFiles/s21_cpp_calc_autogen.dir

@@ -118,12 +118,90 @@ void MainWindow::on_mul_clicked()
 
 void MainWindow::on_leftb_clicked()
 {
-    ui->exp->insertPlainText("(");
+    ui->exp->insertPlainText("()");
+    ui->exp->moveCursor(QTextCursor::Left);
 }
 
 
 void MainWindow::on_rightb_clicked()
 {
     ui->exp->insertPlainText(")");
+}
+
+
+void MainWindow::on_sqrt_clicked()
+{
+    ui->exp->insertPlainText("sqrt()");
+    ui->exp->moveCursor(QTextCursor::Left);
+}
+
+
+void MainWindow::on_sin_clicked()
+{
+    ui->exp->insertPlainText("sin()");
+    ui->exp->moveCursor(QTextCursor::Left);
+}
+
+
+void MainWindow::on_cos_clicked()
+{
+    ui->exp->insertPlainText("cos()");
+    ui->exp->moveCursor(QTextCursor::Left);
+}
+
+
+void MainWindow::on_tan_clicked()
+{
+    ui->exp->insertPlainText("tan()");
+    ui->exp->moveCursor(QTextCursor::Left);
+}
+
+
+void MainWindow::on_ln_clicked()
+{
+    ui->exp->insertPlainText("ln()");
+    ui->exp->moveCursor(QTextCursor::Left);
+}
+
+
+void MainWindow::on_asin_clicked()
+{
+    ui->exp->insertPlainText("asin()");
+    ui->exp->moveCursor(QTextCursor::Left);
+}
+
+
+void MainWindow::on_acos_clicked()
+{
+    ui->exp->insertPlainText("acos()");
+    ui->exp->moveCursor(QTextCursor::Left);
+}
+
+
+void MainWindow::on_atan_clicked()
+{
+    ui->exp->insertPlainText("atan()");
+    ui->exp->moveCursor(QTextCursor::Left);
+}
+
+
+void MainWindow::on_log_clicked()
+{
+    ui->exp->insertPlainText("log()");
+    ui->exp->moveCursor(QTextCursor::Left);
+}
+
+
+void MainWindow::on_backspace_clicked()
+{
+    QString tempStr = ui->exp->toPlainText().chopped(1);
+    ui->exp->clear();
+    ui->exp->insertPlainText(tempStr);
+}
+
+
+void MainWindow::on_deleteAll_clicked()
+{
+    ui->exp->clear();
 }
 
